@@ -27,6 +27,7 @@ git status
 - `deleted: content/index.md`
 - `deleted: content/关于我.md`
 说明只是工作区临时变动，还没提交。
+建议在同步前也检查一次**status**
 ## 一键恢复 content（救命命令）
 
 ```powershell
