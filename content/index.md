@@ -1,6 +1,29 @@
 ---
-title: Welcome to Quartz
+title: 🐣mq的博客
+tags:
+  - 关于我
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+## 😊 关于我 · mq
+你好呀，我是 **mqqqq**。
+
+这里是一个慢慢生长的小角落 🌱  
+用来记录学习时的灵光一现 💡  
+生活里的日常碎片 🧩  
+还有偶尔冒出来的小念头 ✍️
+
+更新不一定勤快 🐢  
+但每一段文字都很认真 📖
+
+如果你在这里  
+收获了一点新东西 🎁  
+或只是度过了一段轻松的时间 ☕  
+那我会很开心 😊
+
+欢迎来逛一会儿～✨
+
+## 💌 关于本站
+
+- 📅 建站日期：2026 / 01 / 28
+- ✍️ 个人电子笔记
+- 👀 更多关于我的详细内容见[[关于我]]
