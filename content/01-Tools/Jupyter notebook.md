@@ -3,6 +3,7 @@ title: Jupyter notebook
 tags:
   - 工具箱
   - "#机器学习"
+  - "#Jupyter"
 ---
 [Jupyter notebook快速入门](https://www.bilibili.com/video/BV1Q4411H7fJ?vd_source=bfdcd6041c71311c083523ea4bcbb589)
 
@@ -43,7 +44,7 @@ pip install jupyter
 
 $$E=mc^2$$
 
-（笔记记到这里啦，劝自己，最好学习一下**LeTax**）
+（笔记记到这里啦，劝自己，最好学习一下**LaTex**）
 
 # tips
 一个很好的比喻，关于`训练集` as 平常学习，`验证集` as 模拟考试，`测试集` as 高考。我们需要通过平常的学习和模拟考试训练一个好的模型，这样才能在高考中取得好成绩。
