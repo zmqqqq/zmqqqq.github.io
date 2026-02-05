@@ -74,6 +74,7 @@ const config: QuartzConfig = {
         openLinksInNewTab: true,
         lazyLoad: true,
         externalLinkIcon: true,
+	showLinkFavicon: true,
       }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
