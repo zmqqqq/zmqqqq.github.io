@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     locale: "zh-CN",
     baseUrl: "zmqqqq.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -74,7 +74,7 @@ const config: QuartzConfig = {
         openLinksInNewTab: true,
         lazyLoad: true,
         externalLinkIcon: true,
-	showLinkFavicon: true,
+	      // showLinkFavicon: true,
       }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
@@ -95,7 +95,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Plugin.CustomOgImages(),
     ],
   },
 }
