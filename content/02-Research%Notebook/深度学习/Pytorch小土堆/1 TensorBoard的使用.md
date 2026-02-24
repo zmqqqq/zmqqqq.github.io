@@ -3,6 +3,7 @@ title: 1 TensorBoard的使用
 draft: false
 tags:
   - "#TensorBoard"
+date: 2026-02-06
 ---
 ![[Pasted image 20260206212549.png]]
 

@@ -70,27 +70,27 @@ export const defaultContentPageLayout: PageLayout = {
     //   }
     // })),
     Component.DesktopOnly(
-  Component.RecentNotes({
-    limit: 3,
-    showTags: false,
-    filter: (f) => !f.frontmatter?.tags?.includes("intro"),
-    sort: (f1, f2) => {
-      const m1 = f1.dates?.modified?.getTime()
-      const m2 = f2.dates?.modified?.getTime()
+    Component.RecentNotes({
+      limit: 3,
+      showTags: false,
+      filter: (f) => !f.frontmatter?.tags?.includes("intro"),
+      sort: (f1, f2) => {
+        const m1 = f1.dates?.modified?.getTime()
+        const m2 = f2.dates?.modified?.getTime()
 
-      // 两篇都有 modified：新→旧
-      if (m1 != null && m2 != null) return m2 - m1
+        // 两篇都有 modified：新→旧
+        if (m1 != null && m2 != null) return m2 - m1
 
-      // 只有一篇有 modified：有的排前
-      if (m1 != null && m2 == null) return -1
-      if (m1 == null && m2 != null) return 1
+        // 只有一篇有 modified：有的排前
+        if (m1 != null && m2 == null) return -1
+        if (m1 == null && m2 != null) return 1
 
-      // 兜底：按标题
-      const t1 = (f1.frontmatter?.title ?? "").toLowerCase()
-      const t2 = (f2.frontmatter?.title ?? "").toLowerCase()
-      return t1.localeCompare(t2)
-    },
-  }) ) ,
+        // 兜底：按标题
+        const t1 = (f1.frontmatter?.title ?? "").toLowerCase()
+        const t2 = (f2.frontmatter?.title ?? "").toLowerCase()
+        return t1.localeCompare(t2)
+      },
+    }) ) ,
     Component.Flex({
       components: [
         {

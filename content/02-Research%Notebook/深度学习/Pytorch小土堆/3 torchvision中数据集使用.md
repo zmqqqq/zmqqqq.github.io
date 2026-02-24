@@ -3,6 +3,7 @@ title: 3 torchvision中数据集使用
 draft: false
 tags:
   - "#torchvision"
+date: 2026-02-23
 ---
 torchvision 是 PyTorch 官方提供的计算机视觉专用库，它提供了流行的数据集、预训练模型和图像处理工具，极大地简化了计算机视觉任务的开发流程。
 

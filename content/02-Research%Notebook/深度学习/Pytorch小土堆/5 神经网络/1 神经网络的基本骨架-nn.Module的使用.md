@@ -3,6 +3,7 @@ title: 1 神经网络的基本骨架-nn.Module的使用
 draft: false
 tags:
   - "#神经网络"
+date: 2026-02-24
 ---
 这里的 **`nn` 就是 `neural network`（神经网络）** 的缩写。
 

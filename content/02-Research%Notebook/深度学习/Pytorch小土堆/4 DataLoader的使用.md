@@ -3,6 +3,7 @@ title: 4 DataLoader的使用
 draft: false
 tags:
   - "#DataLoader"
+date: 2026-02-24
 ---
 ## 1 Dataset 和 DataLoader 区别
 

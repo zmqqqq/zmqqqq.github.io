@@ -4,6 +4,7 @@ tags:
   - 工具箱
   - "#机器学习"
   - "#Jupyter"
+date: 2026-01-28
 ---
 [Jupyter notebook快速入门](https://www.bilibili.com/video/BV1Q4411H7fJ?vd_source=bfdcd6041c71311c083523ea4bcbb589)
 

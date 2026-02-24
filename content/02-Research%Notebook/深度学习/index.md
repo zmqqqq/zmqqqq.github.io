@@ -1,6 +1,7 @@
 ---
 title: 深度学习
 listing: "false"
+date: 2026-01-28
 ---
 
 推荐:
