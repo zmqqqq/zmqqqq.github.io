@@ -41,3 +41,40 @@ git restore content
 ```powershell
 git push
 ```
+
+## 一些提示框
+
+
+> [!NOTE]+ 默认展开
+> 这是note
+
+> [!NOTE]- 默认折叠
+> 这是note
+
+> [!example]- example
+> 这是example
+
+> [!tips]- tips
+> 这是tips提示
+
+> [!warning]- warning
+> 这是warning
+
+> [!abstract]- abstract
+> 这是abstract摘要
+
+> [!info]- info
+> 这是info信息
+
+> [!cite]- cite
+> 这是cite引用
+
+
+
+
+
+
+
+
+
+
