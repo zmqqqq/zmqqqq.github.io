@@ -1,9 +1,9 @@
 ---
-title: Example Title
+title: 1 ResNet
 draft: false
 tags:
   - example-tag
-date:
+date: 2026-04-01
 ---
 
 > [!NOTE] 本篇说明
